@@ -1,0 +1,10 @@
+.header {
+  background-color: purple;
+  color: #ffffff;
+  padding: 0 16px;
+}
+
+.header p {
+  margin: 0;
+  font-size: 50px;
+}
