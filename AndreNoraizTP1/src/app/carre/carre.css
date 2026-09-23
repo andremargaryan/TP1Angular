@@ -1,0 +1,16 @@
+.carre {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  padding: 10px;
+  gap: 5px;
+  place-content: center;
+}

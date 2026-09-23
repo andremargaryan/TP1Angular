@@ -1,1 +1,7 @@
-<app-composant (text)="headerOutput($event)" />
+<div [ngClass]="backgroundColor()">
+    <app-composant></app-composant>
+    <main>
+        <app-carre (backgroundColorChanged)="backgroundColor.set($event)"></app-carre>
+    </main>
+    <app-footer></app-footer>
+</div>

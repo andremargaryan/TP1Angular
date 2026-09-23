@@ -1,11 +1,7 @@
 .footer {
-  background-color: purple;
-  color: #ffffff;
-  padding: 0 16px;
-}
-
-.footer p {
-  margin: 0;
-  font-size: 50px;
-  text-align: center;
+  background-color: orange;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
